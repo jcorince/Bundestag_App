@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The German Bundestag</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <link rel="stylesheet" href="jquery.mobile-1.3.0.min.css" />
+      <script src="jquery-1.8.2.min.js"></script>
+      <script src="jquery.mobile-1.3.0.min.js"></script>
+
+      <link rel="stylesheet" href="style.css" />
+      <script src="bt.js"></script>
+    </meta>
+	</head>
+
+	<body>
+    <div id= "head" data-role="header" data-position="fixed">
+      Pictures
+    </div>
+    
+    <div class="gallery" align="center">
+    	<h3>Some pics of the German Reichstag</h3>
+        <div class="thumbnails">
+        <img border="4" width="40" height="30" onclick="preview.src=img1.src" id="img1" src="bt5.jpg" alt="Image Not Loaded" Title="Logo"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img2.src" id="img2" src="bt8.jpg" alt="Image Not Loaded" Title="Old Reichstag"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img3.src" id="img3" src="bt6.jpg" alt="Image Not Loaded" Title="Dome by sunset"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img4.src" id="img4" src="bt4.jpg" alt="Image Not Loaded" Title="Dome"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img5.src" id="img5" src="bt1.jpg" alt="Image Not Loaded" Title="Restaurant"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img6.src" id="img6" src="bt7.jpg" alt="Image Not Loaded" Title="Inside the dome"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img7.src" id="img7" src="bt3.jpg" alt="Image Not Loaded" Title="The building"/>
+        <img border="4" width="40" height="30" onclick="preview.src=img8.src" id="img8" src="bt2.jpg" alt="Image Not Loaded" Title="Entrance"/>
+      </div>
+      <br/>
+
+      <div class="preview" align="center">
+        <img id="preview" src="bt2.jpg" alt="problem loading image"></img>
+
+      </div>
+
+      <br/>
+
+      <h2 id="contentHeading">The Bundestag</h2>
+    </div>
+    
+     <div data-role="footer" data-position="fixed">
+			<div data-role="navbar" class="navigation_bar" data-grid="d">
+				<ul>
+					<li><a onclick ="document.location.href ='index.html'" id="nav_start" data-icon="custom">Home</a></li>						
+						<li><a onclick ="document.location.href ='map.html'" id="" data-icon="custom">Map</a></li>
+						<li><a onclick ="document.location.href ='tweets.html'" id="" data-icon="custom">Tweets</a></li>						
+					<!--	<li><a onclick ="document.location.href ='pictures.html'" id="" data-icon="custom">Pictures</a></li>   -->
+						<li><a onclick ="document.location.href ='about.html'" id="" data-icon="custom">About</a></li>						
+						<li><a onclick ="document.location.href ='contact.html'" id="nav_findus" data-icon="custom">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	
+	<!-- old footer
+			 
+    <div data-role="footer" data-position="fixed" data-fullscreen ="true">
+      <div id="footer">
+        <fieldset class="ui-grid-c">
+          <div class="ui-block-a">
+            <button type="submit" data-theme="a"  id="BH" onclick ="BHnav()">Home</button>
+          </div>
+          <div class="ui-block-b">
+            <button type="submit" data-theme="b" onclick ="BMnav()">Map</button>
+          </div>
+          <div class="ui-block-c">
+            <button type="submit" data-theme="c" onclick ="BCnav()">Contact</button>
+          </div>
+          <div class="ui-block-d">
+            <button type="submit" data-theme="d" onclick ="BPnav()">Pics</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    
+   -->
+  		
+	</body>
+</html>

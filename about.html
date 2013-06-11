@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The German Bundestag</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"></meta>
+	
+      <link rel="stylesheet" href="jquery.mobile-1.3.0.min.css" />
+      <script src="jquery-1.8.2.min.js"></script>
+      <script src="jquery.mobile-1.3.0.min.js"></script>
+
+      <link rel="stylesheet" href="style.css" />
+      <script src="bt.js"></script>
+    
+  </head>
+
+  <body>
+    <div id= "head" data-role="header" data-position="fixed">
+      The Parliament of the Federal Republic of Germany
+    </div>
+    <div id="content">
+      <p>
+        The German Bundestag is the national Parliament of the Federal Republic of Germany. 
+        Its seat is the Reichstag Building in Berlin. In the current electoral term, Parliament is composed of 620 Members. 
+        This is the 17th electoral term since the establishment of the Federal Republic in 1949. <br/>
+
+		The President of the German Bundestag holds the second highest office of state in Germany, after the Federal President. 
+		Professor Norbert Lammert has held the position of President of the Bundestag since 2005. 
+		He is a member of the largest parliamentary group, the CDU/CSU.
+      </p>
+      
+      <p>Function and role <br/><br/>
+		The German Bundestag is elected by the German people and is the forum where differing opinions about the policies the country should be pursuing are formulated and discussed.
+		
+		The most important tasks performed by the Bundestag are the legislative process and the parliamentary scrutiny of the government and its work.
+		
+		The Members of the German Bundestag also decide on the federal budget and deployments of the Bundeswehr (Federal Armed Forces) outside Germany.
+		
+		Another important function performed by the Bundestag is the election of the German Federal Chancellor.
+		The legislative process
+		
+		In Germany, the legislative process is a task for the country’s parliaments. The Bundestag is therefore the most important organ of the legislative branch in the German Federation. Since, under Germany’s federal system, the Länder hold a considerable share of the powers of the state, the Bundesrat, the organ through which the Länder participate in the legislation and administration of the Federation, is also involved in the legislative process.
+		Principle of the division of powers
+		
+		The division of powers is one of the principles of Germany’s democracy and is anchored in the Basic Law. The powers of the state are divided between several branches, the legislative, the executive and the judiciary, which are supposed to monitor one another and limit the power of the state.
+		
+		In line with the principle of the division of powers, the Bundestag is the highest organ of the legislative in Germany. Alongside it stand the Federal Government, representing the executive, and the federal and Land courts, representing the judiciary.
+		
+		</p>
+      
+      
+
+    </div>
+	<span id='motto'></span>
+	
+	 <div data-role="footer" data-position="fixed">
+			<div data-role="navbar" class="navigation_bar" data-grid="d">
+				<ul>
+					<li><a onclick ="document.location.href ='index.html'" id="nav_start" data-icon="custom">Home</a></li>						
+					<li><a onclick ="document.location.href ='map.html'" id="" data-icon="custom">Map</a></li>
+					<li><a onclick ="document.location.href ='tweets.html'" id="" data-icon="custom">Tweets</a></li>						
+					<li><a onclick ="document.location.href ='pictures.html'" id="" data-icon="custom">Pictures</a></li>
+			<!--	<li><a onclick ="document.location.href ='about.html'" id="" data-icon="custom">About</a></li>    -->						
+					<li><a onclick ="document.location.href ='contact.html'" id="nav_findus" data-icon="custom">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	
+	<!--   old footer
+		
+    <div data-role="footer" data-position="fixed" data-fullscreen ="true">
+      <div id="footer">
+        <fieldset class="ui-grid-c">
+          <div class="ui-block-a">
+            <button type="submit" data-theme="a"  id="BH" onclick ="BHnav()">Home</button>
+          </div>
+          <div class="ui-block-b">
+            <button type="submit" data-theme="b" onclick ="BMnav()">Map</button>
+          </div>
+          <div class="ui-block-c">
+            <button type="submit" data-theme="c" onclick ="BCnav()">Contact</button>
+          </div>
+          <div class="ui-block-d">
+            <button type="submit" data-theme="d" onclick ="BPnav()">Pics</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>  
+    
+   -->
+   
+   
+	<script type="lang/javascript">   /*
+						
+	$(document).ready(function() 
+	{	
+		function getInfo()
+		{
+			$.ajax({
+						type:'GET',
+						url:"http://www.blessedbytes.de/mobdev/touristdata.php?callback=?",
+						success:function(data) {
+						  $('#motto').html(data.Details);
+						},
+						dataType:'jsonp'					
+				   });	 
+		}	
+        getInfo();
+		
+	
+		
+	});      */
+	</script>
+  </body>
+</html>
