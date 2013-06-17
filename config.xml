@@ -54,21 +54,8 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
 -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="Bundestag.png" />
-    <icon src="Bundestag.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="Bundestag.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="Bundestag.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="Bundestag.png" gap:platform="android" gap:density="xhdpi" />
-    <icon src="Bundestag.png" gap:platform="blackberry" />
-    <icon src="Bundestag.png" gap:platform="blackberry" gap:state="hover"/>
-    <icon src="Bundestag.png" gap:platform="ios" width="57" height="57" />
-    <icon src="Bundestag.png" gap:platform="ios" width="72" height="72" />
-    <icon src="Bundestag.png" gap:platform="ios" width="114" height="114" />
-    <icon src="Bundestag.png" gap:platform="ios" width="144" height="144" />
-    <icon src="Bundestag.png" gap:platform="webos" />
-    <icon src="Bundestag.png" gap:platform="winphone" />
-    <icon src="Bundestag.png" gap:platform="winphone" gap:role="background" />
-
+    <icon src="BundestagIcon.png" />
+   
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="Bundestag.png" gap:platform="android" gap:density="ldpi" />
     <gap:splash src="Bundestag.png" gap:platform="android" gap:density="mdpi" />
